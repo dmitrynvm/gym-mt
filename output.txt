@@ -1,0 +1,1141 @@
+== Status ==
+Using FIFO scheduling algorithm.
+Resources requested: 0/8 CPUs, 0/0 GPUs, 0.0/1.71 GiB heap, 0.0/0.59 GiB objects
+Memory usage on this node: 3.0/7.6 GiB
+
+== Status ==
+Using FIFO scheduling algorithm.
+Resources requested: 2/8 CPUs, 0/0 GPUs, 0.0/1.71 GiB heap, 0.0/0.59 GiB objects
+Memory usage on this node: 3.0/7.6 GiB
+Result logdir: /home/dm/ray_results/PPO
+Number of trials: 3 ({'RUNNING': 1, 'PENDING': 2})
+PENDING trials:
+ - PPO_SimpleCorridor_1_lr=0.0001:	PENDING
+ - PPO_SimpleCorridor_2_lr=1e-06:	PENDING
+RUNNING trials:
+ - PPO_SimpleCorridor_0_lr=0.01:	RUNNING
+
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8074)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8074)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:15,731	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8076)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8076)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:15,753	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8072)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8072)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:15,854	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:16,098	INFO trainer.py:344 -- Tip: set 'eager': true or the --eager flag to enable TensorFlow eager execution
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:16,114	INFO trainer.py:344 -- Tip: set 'eager': true or the --eager flag to enable TensorFlow eager execution
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:16,241	INFO trainer.py:344 -- Tip: set 'eager': true or the --eager flag to enable TensorFlow eager execution
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:16,992	INFO rollout_worker.py:768 -- Built policy map: {'default_policy': <ray.rllib.policy.tf_policy_template.PPOTFPolicy object at 0x7f6cd8fb7978>}
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:16,992	INFO rollout_worker.py:769 -- Built preprocessor map: {'default_policy': <ray.rllib.models.preprocessors.NoPreprocessor object at 0x7f6cd8fb7898>}
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:16,992	INFO rollout_worker.py:370 -- Built filter map: {'default_policy': <ray.rllib.utils.filter.NoFilter object at 0x7f6cd8fb7748>}
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:17,018	INFO rollout_worker.py:768 -- Built policy map: {'default_policy': <ray.rllib.policy.tf_policy_template.PPOTFPolicy object at 0x7f9a340ae940>}
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:17,018	INFO rollout_worker.py:769 -- Built preprocessor map: {'default_policy': <ray.rllib.models.preprocessors.NoPreprocessor object at 0x7f9a340ae860>}
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:17,018	INFO rollout_worker.py:370 -- Built filter map: {'default_policy': <ray.rllib.utils.filter.NoFilter object at 0x7f9a340ae710>}
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:17,043	INFO multi_gpu_optimizer.py:93 -- LocalMultiGPUOptimizer devices ['/cpu:0']
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:17,016	INFO multi_gpu_optimizer.py:93 -- LocalMultiGPUOptimizer devices ['/cpu:0']
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:17,142	INFO rollout_worker.py:768 -- Built policy map: {'default_policy': <ray.rllib.policy.tf_policy_template.PPOTFPolicy object at 0x7fa2b406f908>}
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:17,142	INFO rollout_worker.py:769 -- Built preprocessor map: {'default_policy': <ray.rllib.models.preprocessors.NoPreprocessor object at 0x7fa2b406f828>}
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:17,142	INFO rollout_worker.py:370 -- Built filter map: {'default_policy': <ray.rllib.utils.filter.NoFilter object at 0x7fa2b406f6d8>}
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:17,165	INFO multi_gpu_optimizer.py:93 -- LocalMultiGPUOptimizer devices ['/cpu:0']
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8245)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8245)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:18,857	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8077)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8077)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:18,987	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8239)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8239)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:19,203	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,513	INFO rollout_worker.py:467 -- Generating sample batch of size 200
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,513	INFO sampler.py:310 -- Raw obs from env: {0: {'agent0': [0]}}
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,514	INFO sampler.py:311 -- Info return from env: {0: {'agent0': None}}
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,514	INFO sampler.py:409 -- Preprocessed obs: [0]
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,514	INFO sampler.py:413 -- Filtered obs: np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0)
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,515	INFO sampler.py:528 -- Inputs to compute_actions():
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8077)[0m { 'default_policy': [ { 'data': { 'agent_id': 'agent0',
+[2m[36m(pid=8077)[0m                                   'env_id': 0,
+[2m[36m(pid=8077)[0m                                   'info': None,
+[2m[36m(pid=8077)[0m                                   'obs': np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m                                   'prev_action': np.ndarray((), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m                                   'prev_reward': 0.0,
+[2m[36m(pid=8077)[0m                                   'rnn_state': []},
+[2m[36m(pid=8077)[0m                         'type': 'PolicyEvalData'}]}
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,516	INFO tf_run_builder.py:92 -- Executing TF run without tracing. To dump TF timeline traces to disk, set the TF_TIMELINE_DIR environment variable.
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,551	INFO sampler.py:555 -- Outputs of compute_actions():
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8077)[0m { 'default_policy': ( np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m                       [],
+[2m[36m(pid=8077)[0m                       { 'action_logp': np.ndarray((1,), dtype=float32, min=-0.693, max=-0.693, mean=-0.693),
+[2m[36m(pid=8077)[0m                         'action_prob': np.ndarray((1,), dtype=float32, min=0.5, max=0.5, mean=0.5),
+[2m[36m(pid=8077)[0m                         'behaviour_logits': np.ndarray((1, 2), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m                         'vf_preds': np.ndarray((1,), dtype=float32, min=0.0, max=0.0, mean=0.0)})}
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,582	INFO sample_batch_builder.py:161 -- Trajectory fragment after postprocess_trajectory():
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8077)[0m { 'agent0': { 'data': { 'action_logp': np.ndarray((26,), dtype=float32, min=-0.698, max=-0.688, mean=-0.694),
+[2m[36m(pid=8077)[0m                         'action_prob': np.ndarray((26,), dtype=float32, min=0.497, max=0.503, mean=0.5),
+[2m[36m(pid=8077)[0m                         'actions': np.ndarray((26,), dtype=int64, min=0.0, max=1.0, mean=0.577),
+[2m[36m(pid=8077)[0m                         'advantages': np.ndarray((26,), dtype=float32, min=0.778, max=1.002, mean=0.886),
+[2m[36m(pid=8077)[0m                         'agent_index': np.ndarray((26,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m                         'behaviour_logits': np.ndarray((26, 2), dtype=float32, min=-0.001, max=0.01, mean=0.004),
+[2m[36m(pid=8077)[0m                         'dones': np.ndarray((26,), dtype=bool, min=0.0, max=1.0, mean=0.038),
+[2m[36m(pid=8077)[0m                         'eps_id': np.ndarray((26,), dtype=int64, min=272669129.0, max=272669129.0, mean=272669129.0),
+[2m[36m(pid=8077)[0m                         'infos': np.ndarray((26,), dtype=object, head={}),
+[2m[36m(pid=8077)[0m                         'new_obs': np.ndarray((26, 1), dtype=int64, min=0.0, max=5.0, mean=2.269),
+[2m[36m(pid=8077)[0m                         'obs': np.ndarray((26, 1), dtype=int64, min=0.0, max=4.0, mean=2.077),
+[2m[36m(pid=8077)[0m                         'prev_actions': np.ndarray((26,), dtype=int64, min=0.0, max=1.0, mean=0.538),
+[2m[36m(pid=8077)[0m                         'prev_rewards': np.ndarray((26,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m                         'rewards': np.ndarray((26,), dtype=int64, min=0.0, max=1.0, mean=0.038),
+[2m[36m(pid=8077)[0m                         't': np.ndarray((26,), dtype=int64, min=0.0, max=25.0, mean=12.5),
+[2m[36m(pid=8077)[0m                         'unroll_id': np.ndarray((26,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m                         'value_targets': np.ndarray((26,), dtype=float32, min=0.778, max=1.0, mean=0.884),
+[2m[36m(pid=8077)[0m                         'vf_preds': np.ndarray((26,), dtype=float32, min=-0.002, max=0.0, mean=-0.002)},
+[2m[36m(pid=8077)[0m               'type': 'SampleBatch'}}
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,548	INFO rollout_worker.py:467 -- Generating sample batch of size 200
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,548	INFO sampler.py:310 -- Raw obs from env: {0: {'agent0': [0]}}
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,548	INFO sampler.py:311 -- Info return from env: {0: {'agent0': None}}
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,548	INFO sampler.py:409 -- Preprocessed obs: [0]
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,549	INFO sampler.py:413 -- Filtered obs: np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0)
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,549	INFO sampler.py:528 -- Inputs to compute_actions():
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8239)[0m { 'default_policy': [ { 'data': { 'agent_id': 'agent0',
+[2m[36m(pid=8239)[0m                                   'env_id': 0,
+[2m[36m(pid=8239)[0m                                   'info': None,
+[2m[36m(pid=8239)[0m                                   'obs': np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m                                   'prev_action': np.ndarray((), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m                                   'prev_reward': 0.0,
+[2m[36m(pid=8239)[0m                                   'rnn_state': []},
+[2m[36m(pid=8239)[0m                         'type': 'PolicyEvalData'}]}
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,550	INFO tf_run_builder.py:92 -- Executing TF run without tracing. To dump TF timeline traces to disk, set the TF_TIMELINE_DIR environment variable.
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,574	INFO sampler.py:555 -- Outputs of compute_actions():
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8239)[0m { 'default_policy': ( np.ndarray((1,), dtype=int64, min=1.0, max=1.0, mean=1.0),
+[2m[36m(pid=8239)[0m                       [],
+[2m[36m(pid=8239)[0m                       { 'action_logp': np.ndarray((1,), dtype=float32, min=-0.693, max=-0.693, mean=-0.693),
+[2m[36m(pid=8239)[0m                         'action_prob': np.ndarray((1,), dtype=float32, min=0.5, max=0.5, mean=0.5),
+[2m[36m(pid=8239)[0m                         'behaviour_logits': np.ndarray((1, 2), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m                         'vf_preds': np.ndarray((1,), dtype=float32, min=0.0, max=0.0, mean=0.0)})}
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,582	INFO sample_batch_builder.py:161 -- Trajectory fragment after postprocess_trajectory():
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8239)[0m { 'agent0': { 'data': { 'action_logp': np.ndarray((7,), dtype=float32, min=-0.693, max=-0.693, mean=-0.693),
+[2m[36m(pid=8239)[0m                         'action_prob': np.ndarray((7,), dtype=float32, min=0.5, max=0.5, mean=0.5),
+[2m[36m(pid=8239)[0m                         'actions': np.ndarray((7,), dtype=int64, min=0.0, max=1.0, mean=0.857),
+[2m[36m(pid=8239)[0m                         'advantages': np.ndarray((7,), dtype=float32, min=0.941, max=0.993, mean=0.966),
+[2m[36m(pid=8239)[0m                         'agent_index': np.ndarray((7,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m                         'behaviour_logits': np.ndarray((7, 2), dtype=float32, min=0.0, max=0.005, mean=0.004),
+[2m[36m(pid=8239)[0m                         'dones': np.ndarray((7,), dtype=bool, min=0.0, max=1.0, mean=0.143),
+[2m[36m(pid=8239)[0m                         'eps_id': np.ndarray((7,), dtype=int64, min=1207174668.0, max=1207174668.0, mean=1207174668.0),
+[2m[36m(pid=8239)[0m                         'infos': np.ndarray((7,), dtype=object, head={}),
+[2m[36m(pid=8239)[0m                         'new_obs': np.ndarray((7, 1), dtype=int64, min=0.0, max=5.0, mean=2.286),
+[2m[36m(pid=8239)[0m                         'obs': np.ndarray((7, 1), dtype=int64, min=0.0, max=4.0, mean=1.571),
+[2m[36m(pid=8239)[0m                         'prev_actions': np.ndarray((7,), dtype=int64, min=0.0, max=1.0, mean=0.714),
+[2m[36m(pid=8239)[0m                         'prev_rewards': np.ndarray((7,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m                         'rewards': np.ndarray((7,), dtype=int64, min=0.0, max=1.0, mean=0.143),
+[2m[36m(pid=8239)[0m                         't': np.ndarray((7,), dtype=int64, min=0.0, max=6.0, mean=3.0),
+[2m[36m(pid=8239)[0m                         'unroll_id': np.ndarray((7,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m                         'value_targets': np.ndarray((7,), dtype=float32, min=0.941, max=1.0, mean=0.97),
+[2m[36m(pid=8239)[0m                         'vf_preds': np.ndarray((7,), dtype=float32, min=0.0, max=0.007, mean=0.005)},
+[2m[36m(pid=8239)[0m               'type': 'SampleBatch'}}
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,594	INFO rollout_worker.py:467 -- Generating sample batch of size 200
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,594	INFO sampler.py:310 -- Raw obs from env: {0: {'agent0': [0]}}
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,594	INFO sampler.py:311 -- Info return from env: {0: {'agent0': None}}
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,594	INFO sampler.py:409 -- Preprocessed obs: [0]
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,595	INFO sampler.py:413 -- Filtered obs: np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0)
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,595	INFO sampler.py:528 -- Inputs to compute_actions():
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8245)[0m { 'default_policy': [ { 'data': { 'agent_id': 'agent0',
+[2m[36m(pid=8245)[0m                                   'env_id': 0,
+[2m[36m(pid=8245)[0m                                   'info': None,
+[2m[36m(pid=8245)[0m                                   'obs': np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m                                   'prev_action': np.ndarray((), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m                                   'prev_reward': 0.0,
+[2m[36m(pid=8245)[0m                                   'rnn_state': []},
+[2m[36m(pid=8245)[0m                         'type': 'PolicyEvalData'}]}
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,595	INFO tf_run_builder.py:92 -- Executing TF run without tracing. To dump TF timeline traces to disk, set the TF_TIMELINE_DIR environment variable.
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,618	INFO sampler.py:555 -- Outputs of compute_actions():
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8245)[0m { 'default_policy': ( np.ndarray((1,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m                       [],
+[2m[36m(pid=8245)[0m                       { 'action_logp': np.ndarray((1,), dtype=float32, min=-0.693, max=-0.693, mean=-0.693),
+[2m[36m(pid=8245)[0m                         'action_prob': np.ndarray((1,), dtype=float32, min=0.5, max=0.5, mean=0.5),
+[2m[36m(pid=8245)[0m                         'behaviour_logits': np.ndarray((1, 2), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m                         'vf_preds': np.ndarray((1,), dtype=float32, min=0.0, max=0.0, mean=0.0)})}
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,627	INFO sample_batch_builder.py:161 -- Trajectory fragment after postprocess_trajectory():
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8245)[0m { 'agent0': { 'data': { 'action_logp': np.ndarray((10,), dtype=float32, min=-0.696, max=-0.69, mean=-0.694),
+[2m[36m(pid=8245)[0m                         'action_prob': np.ndarray((10,), dtype=float32, min=0.499, max=0.501, mean=0.499),
+[2m[36m(pid=8245)[0m                         'actions': np.ndarray((10,), dtype=int64, min=0.0, max=1.0, mean=0.7),
+[2m[36m(pid=8245)[0m                         'advantages': np.ndarray((10,), dtype=float32, min=0.914, max=1.001, mean=0.957),
+[2m[36m(pid=8245)[0m                         'agent_index': np.ndarray((10,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m                         'behaviour_logits': np.ndarray((10, 2), dtype=float32, min=-0.005, max=0.001, mean=-0.001),
+[2m[36m(pid=8245)[0m                         'dones': np.ndarray((10,), dtype=bool, min=0.0, max=1.0, mean=0.1),
+[2m[36m(pid=8245)[0m                         'eps_id': np.ndarray((10,), dtype=int64, min=1332987711.0, max=1332987711.0, mean=1332987711.0),
+[2m[36m(pid=8245)[0m                         'infos': np.ndarray((10,), dtype=object, head={}),
+[2m[36m(pid=8245)[0m                         'new_obs': np.ndarray((10, 1), dtype=int64, min=0.0, max=5.0, mean=2.1),
+[2m[36m(pid=8245)[0m                         'obs': np.ndarray((10, 1), dtype=int64, min=0.0, max=4.0, mean=1.6),
+[2m[36m(pid=8245)[0m                         'prev_actions': np.ndarray((10,), dtype=int64, min=0.0, max=1.0, mean=0.6),
+[2m[36m(pid=8245)[0m                         'prev_rewards': np.ndarray((10,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m                         'rewards': np.ndarray((10,), dtype=int64, min=0.0, max=1.0, mean=0.1),
+[2m[36m(pid=8245)[0m                         't': np.ndarray((10,), dtype=int64, min=0.0, max=9.0, mean=4.5),
+[2m[36m(pid=8245)[0m                         'unroll_id': np.ndarray((10,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m                         'value_targets': np.ndarray((10,), dtype=float32, min=0.914, max=1.0, mean=0.956),
+[2m[36m(pid=8245)[0m                         'vf_preds': np.ndarray((10,), dtype=float32, min=-0.001, max=0.0, mean=-0.0)},
+[2m[36m(pid=8245)[0m               'type': 'SampleBatch'}}
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8077)[0m 2019-10-03 15:30:21,718	INFO rollout_worker.py:501 -- Completed sample batch:
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8077)[0m { 'data': { 'action_logp': np.ndarray((200,), dtype=float32, min=-0.698, max=-0.688, mean=-0.693),
+[2m[36m(pid=8077)[0m             'action_prob': np.ndarray((200,), dtype=float32, min=0.497, max=0.503, mean=0.5),
+[2m[36m(pid=8077)[0m             'actions': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.53),
+[2m[36m(pid=8077)[0m             'advantages': np.ndarray((200,), dtype=float32, min=-0.002, max=1.002, mean=0.723),
+[2m[36m(pid=8077)[0m             'agent_index': np.ndarray((200,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m             'behaviour_logits': np.ndarray((200, 2), dtype=float32, min=-0.001, max=0.01, mean=0.003),
+[2m[36m(pid=8077)[0m             'dones': np.ndarray((200,), dtype=bool, min=0.0, max=1.0, mean=0.035),
+[2m[36m(pid=8077)[0m             'eps_id': np.ndarray((200,), dtype=int64, min=196320139.0, max=1544980994.0, mean=842104197.245),
+[2m[36m(pid=8077)[0m             'infos': np.ndarray((200,), dtype=object, head={}),
+[2m[36m(pid=8077)[0m             'new_obs': np.ndarray((200, 1), dtype=int64, min=0.0, max=5.0, mean=1.625),
+[2m[36m(pid=8077)[0m             'obs': np.ndarray((200, 1), dtype=int64, min=0.0, max=4.0, mean=1.435),
+[2m[36m(pid=8077)[0m             'prev_actions': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.49),
+[2m[36m(pid=8077)[0m             'prev_rewards': np.ndarray((200,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m             'rewards': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.035),
+[2m[36m(pid=8077)[0m             't': np.ndarray((200,), dtype=int64, min=0.0, max=81.0, mean=22.33),
+[2m[36m(pid=8077)[0m             'unroll_id': np.ndarray((200,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8077)[0m             'value_targets': np.ndarray((200,), dtype=float32, min=-0.002, max=1.0, mean=0.722),
+[2m[36m(pid=8077)[0m             'vf_preds': np.ndarray((200,), dtype=float32, min=-0.002, max=0.0, mean=-0.001)},
+[2m[36m(pid=8077)[0m   'type': 'SampleBatch'}
+[2m[36m(pid=8077)[0m 
+[2m[36m(pid=8239)[0m 2019-10-03 15:30:21,741	INFO rollout_worker.py:501 -- Completed sample batch:
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8239)[0m { 'data': { 'action_logp': np.ndarray((200,), dtype=float32, min=-0.693, max=-0.693, mean=-0.693),
+[2m[36m(pid=8239)[0m             'action_prob': np.ndarray((200,), dtype=float32, min=0.5, max=0.5, mean=0.5),
+[2m[36m(pid=8239)[0m             'actions': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.53),
+[2m[36m(pid=8239)[0m             'advantages': np.ndarray((200,), dtype=float32, min=-0.007, max=0.993, mean=0.783),
+[2m[36m(pid=8239)[0m             'agent_index': np.ndarray((200,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m             'behaviour_logits': np.ndarray((200, 2), dtype=float32, min=0.0, max=0.005, mean=0.003),
+[2m[36m(pid=8239)[0m             'dones': np.ndarray((200,), dtype=bool, min=0.0, max=1.0, mean=0.045),
+[2m[36m(pid=8239)[0m             'eps_id': np.ndarray((200,), dtype=int64, min=257885635.0, max=1347694880.0, mean=780071884.235),
+[2m[36m(pid=8239)[0m             'infos': np.ndarray((200,), dtype=object, head={}),
+[2m[36m(pid=8239)[0m             'new_obs': np.ndarray((200, 1), dtype=int64, min=0.0, max=5.0, mean=1.67),
+[2m[36m(pid=8239)[0m             'obs': np.ndarray((200, 1), dtype=int64, min=0.0, max=4.0, mean=1.445),
+[2m[36m(pid=8239)[0m             'prev_actions': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.485),
+[2m[36m(pid=8239)[0m             'prev_rewards': np.ndarray((200,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m             'rewards': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.045),
+[2m[36m(pid=8239)[0m             't': np.ndarray((200,), dtype=int64, min=0.0, max=41.0, mean=12.415),
+[2m[36m(pid=8239)[0m             'unroll_id': np.ndarray((200,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8239)[0m             'value_targets': np.ndarray((200,), dtype=float32, min=0.0, max=1.0, mean=0.788),
+[2m[36m(pid=8239)[0m             'vf_preds': np.ndarray((200,), dtype=float32, min=0.0, max=0.007, mean=0.004)},
+[2m[36m(pid=8239)[0m   'type': 'SampleBatch'}
+[2m[36m(pid=8239)[0m 
+[2m[36m(pid=8245)[0m 2019-10-03 15:30:21,810	INFO rollout_worker.py:501 -- Completed sample batch:
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8245)[0m { 'data': { 'action_logp': np.ndarray((200,), dtype=float32, min=-0.696, max=-0.69, mean=-0.693),
+[2m[36m(pid=8245)[0m             'action_prob': np.ndarray((200,), dtype=float32, min=0.499, max=0.501, mean=0.5),
+[2m[36m(pid=8245)[0m             'actions': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.5),
+[2m[36m(pid=8245)[0m             'advantages': np.ndarray((200,), dtype=float32, min=-0.0, max=1.001, mean=0.614),
+[2m[36m(pid=8245)[0m             'agent_index': np.ndarray((200,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m             'behaviour_logits': np.ndarray((200, 2), dtype=float32, min=-0.005, max=0.001, mean=-0.001),
+[2m[36m(pid=8245)[0m             'dones': np.ndarray((200,), dtype=bool, min=0.0, max=1.0, mean=0.035),
+[2m[36m(pid=8245)[0m             'eps_id': np.ndarray((200,), dtype=int64, min=34937412.0, max=1773448623.0, mean=1005622057.9),
+[2m[36m(pid=8245)[0m             'infos': np.ndarray((200,), dtype=object, head={}),
+[2m[36m(pid=8245)[0m             'new_obs': np.ndarray((200, 1), dtype=int64, min=0.0, max=5.0, mean=1.54),
+[2m[36m(pid=8245)[0m             'obs': np.ndarray((200, 1), dtype=int64, min=0.0, max=4.0, mean=1.365),
+[2m[36m(pid=8245)[0m             'prev_actions': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.465),
+[2m[36m(pid=8245)[0m             'prev_rewards': np.ndarray((200,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m             'rewards': np.ndarray((200,), dtype=int64, min=0.0, max=1.0, mean=0.035),
+[2m[36m(pid=8245)[0m             't': np.ndarray((200,), dtype=int64, min=0.0, max=60.0, mean=18.13),
+[2m[36m(pid=8245)[0m             'unroll_id': np.ndarray((200,), dtype=int64, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8245)[0m             'value_targets': np.ndarray((200,), dtype=float32, min=-0.0, max=1.0, mean=0.614),
+[2m[36m(pid=8245)[0m             'vf_preds': np.ndarray((200,), dtype=float32, min=-0.001, max=0.0, mean=-0.0)},
+[2m[36m(pid=8245)[0m   'type': 'SampleBatch'}
+[2m[36m(pid=8245)[0m 
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8075)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8075)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8073)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8073)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8071)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8071)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8075)[0m 2019-10-03 15:30:23,782	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8070)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8070)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8073)[0m 2019-10-03 15:30:23,820	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+[2m[36m(pid=8240)[0m /home/dm/.local/lib/python3.5/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+[2m[36m(pid=8240)[0m   np_resource = np.dtype([("resource", np.ubyte, 1)])
+[2m[36m(pid=8070)[0m 2019-10-03 15:30:23,843	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8071)[0m 2019-10-03 15:30:23,845	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8240)[0m 2019-10-03 15:30:23,853	WARNING compression.py:20 -- lz4 not available, disabling sample compression. This will significantly impact RLlib performance. To install lz4, run `pip install lz4`.
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_1/kernel:0' shape=(1, 256) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_1/bias:0' shape=(256,) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_2/kernel:0' shape=(256, 256) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_2/bias:0' shape=(256,) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_out/kernel:0' shape=(256, 2) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_out/bias:0' shape=(2,) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/value_out/kernel:0' shape=(256, 1) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,162	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/value_out/bias:0' shape=(1,) dtype=float32>
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,164	INFO multi_gpu_impl.py:146 -- Training on concatenated sample batches:
+[2m[36m(pid=8072)[0m 
+[2m[36m(pid=8072)[0m { 'inputs': [ np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.477),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8072)[0m               np.ndarray((4000, 1), dtype=int64, min=0.0, max=4.0, mean=1.376),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=float32, min=-0.693, max=-0.693, mean=-0.693),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.512),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=float32, min=-2.453, max=0.89, mean=-0.0),
+[2m[36m(pid=8072)[0m               np.ndarray((4000, 2), dtype=float32, min=0.0, max=0.005, mean=0.003),
+[2m[36m(pid=8072)[0m               np.ndarray((4000, 1), dtype=int64, min=0.0, max=4.0, mean=1.376),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.477),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=1.0, mean=0.731),
+[2m[36m(pid=8072)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=0.007, mean=0.004)],
+[2m[36m(pid=8072)[0m   'placeholders': [ <tf.Tensor 'default_policy/action:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/prev_reward:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/observation:0' shape=(?, 1) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/action_logp:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/actions:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/advantages:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/behaviour_logits:0' shape=(?, 2) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/observation:0' shape=(?, 1) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/action:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/prev_reward:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/value_targets:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8072)[0m                     <tf.Tensor 'default_policy/vf_preds:0' shape=(?,) dtype=float32>],
+[2m[36m(pid=8072)[0m   'state_inputs': []}
+[2m[36m(pid=8072)[0m 
+[2m[36m(pid=8072)[0m 2019-10-03 15:30:26,164	INFO multi_gpu_impl.py:191 -- Divided 4000 rollout sequences, each of length 1, among 1 devices.
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_1/kernel:0' shape=(1, 256) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_1/bias:0' shape=(256,) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_2/kernel:0' shape=(256, 256) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_2/bias:0' shape=(256,) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_out/kernel:0' shape=(256, 2) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_out/bias:0' shape=(2,) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/value_out/kernel:0' shape=(256, 1) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,145	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/value_out/bias:0' shape=(1,) dtype=float32>
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,147	INFO multi_gpu_impl.py:146 -- Training on concatenated sample batches:
+[2m[36m(pid=8074)[0m 
+[2m[36m(pid=8074)[0m { 'inputs': [ np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.469),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8074)[0m               np.ndarray((4000, 1), dtype=int64, min=0.0, max=4.0, mean=1.303),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=float32, min=-0.698, max=-0.688, mean=-0.693),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.502),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=float32, min=-2.931, max=0.965, mean=-0.0),
+[2m[36m(pid=8074)[0m               np.ndarray((4000, 2), dtype=float32, min=-0.001, max=0.01, mean=0.003),
+[2m[36m(pid=8074)[0m               np.ndarray((4000, 1), dtype=int64, min=0.0, max=4.0, mean=1.303),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.469),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=float32, min=-0.002, max=1.0, mean=0.752),
+[2m[36m(pid=8074)[0m               np.ndarray((4000,), dtype=float32, min=-0.002, max=0.0, mean=-0.001)],
+[2m[36m(pid=8074)[0m   'placeholders': [ <tf.Tensor 'default_policy/action:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/prev_reward:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/observation:0' shape=(?, 1) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/action_logp:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/actions:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/advantages:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/behaviour_logits:0' shape=(?, 2) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/observation:0' shape=(?, 1) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/action:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/prev_reward:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/value_targets:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8074)[0m                     <tf.Tensor 'default_policy/vf_preds:0' shape=(?,) dtype=float32>],
+[2m[36m(pid=8074)[0m   'state_inputs': []}
+[2m[36m(pid=8074)[0m 
+[2m[36m(pid=8074)[0m 2019-10-03 15:30:26,147	INFO multi_gpu_impl.py:191 -- Divided 4000 rollout sequences, each of length 1, among 1 devices.
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,208	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_1/kernel:0' shape=(1, 256) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,209	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_1/bias:0' shape=(256,) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,209	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_2/kernel:0' shape=(256, 256) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,209	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_2/bias:0' shape=(256,) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,209	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_out/kernel:0' shape=(256, 2) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,209	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/fc_out/bias:0' shape=(2,) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,209	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/value_out/kernel:0' shape=(256, 1) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,209	INFO tf_policy.py:358 -- Optimizing variable <tf.Variable 'default_policy/value_out/bias:0' shape=(1,) dtype=float32>
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,211	INFO multi_gpu_impl.py:146 -- Training on concatenated sample batches:
+[2m[36m(pid=8076)[0m 
+[2m[36m(pid=8076)[0m { 'inputs': [ np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.464),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8076)[0m               np.ndarray((4000, 1), dtype=int64, min=0.0, max=4.0, mean=1.287),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=float32, min=-0.696, max=-0.69, mean=-0.693),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.499),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=float32, min=-2.122, max=0.853, mean=0.0),
+[2m[36m(pid=8076)[0m               np.ndarray((4000, 2), dtype=float32, min=-0.005, max=0.001, mean=-0.001),
+[2m[36m(pid=8076)[0m               np.ndarray((4000, 1), dtype=int64, min=0.0, max=4.0, mean=1.287),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=int64, min=0.0, max=1.0, mean=0.464),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=float32, min=-0.001, max=1.0, mean=0.713),
+[2m[36m(pid=8076)[0m               np.ndarray((4000,), dtype=float32, min=-0.001, max=0.0, mean=-0.0)],
+[2m[36m(pid=8076)[0m   'placeholders': [ <tf.Tensor 'default_policy/action:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/prev_reward:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/observation:0' shape=(?, 1) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/action_logp:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/actions:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/advantages:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/behaviour_logits:0' shape=(?, 2) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/observation:0' shape=(?, 1) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/action:0' shape=(?,) dtype=int64>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/prev_reward:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/value_targets:0' shape=(?,) dtype=float32>,
+[2m[36m(pid=8076)[0m                     <tf.Tensor 'default_policy/vf_preds:0' shape=(?,) dtype=float32>],
+[2m[36m(pid=8076)[0m   'state_inputs': []}
+[2m[36m(pid=8076)[0m 
+[2m[36m(pid=8076)[0m 2019-10-03 15:30:26,212	INFO multi_gpu_impl.py:191 -- Divided 4000 rollout sequences, each of length 1, among 1 devices.
+Result for PPO_SimpleCorridor_0_lr=0.01:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-30
+  done: false
+  episode_len_mean: 29.850746268656717
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 134
+  episodes_total: 134
+  experiment_id: 69ddaf05b6314c7e99919c6c0bfdb793
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3751.985
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.20000000298023224
+        cur_lr: 0.009999999776482582
+        entropy: 0.6062390208244324
+        entropy_coeff: 0.0
+        kl: 0.11774157732725143
+        policy_loss: 0.021762114018201828
+        total_loss: 0.12167555838823318
+        vf_explained_var: -0.06195860356092453
+        vf_loss: 0.0763651430606842
+    load_time_ms: 50.987
+    num_steps_sampled: 4000
+    num_steps_trained: 3968
+    sample_time_ms: 4670.212
+    update_time_ms: 510.339
+  iterations_since_restore: 1
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8074
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.05207267948103917
+    mean_inference_ms: 0.8727036485431253
+    mean_processing_ms: 0.2089845809421668
+  time_since_restore: 9.054610967636108
+  time_this_iter_s: 9.054610967636108
+  time_total_s: 9.054610967636108
+  timestamp: 1570105830
+  timesteps_since_restore: 4000
+  timesteps_this_iter: 4000
+  timesteps_total: 4000
+  training_iteration: 1
+  trial_id: 8b851dd6
+  
+== Status ==
+Using FIFO scheduling algorithm.
+Resources requested: 6/8 CPUs, 0/0 GPUs, 0.0/1.71 GiB heap, 0.0/0.59 GiB objects
+Memory usage on this node: 5.3/7.6 GiB
+Result logdir: /home/dm/ray_results/PPO
+Number of trials: 3 ({'RUNNING': 3})
+RUNNING trials:
+ - PPO_SimpleCorridor_0_lr=0.01:	RUNNING, [2 CPUs, 0 GPUs], [pid=8074], 9 s, 1 iter, 4000 ts, 1 rew
+ - PPO_SimpleCorridor_1_lr=0.0001:	RUNNING
+ - PPO_SimpleCorridor_2_lr=1e-06:	RUNNING
+
+Result for PPO_SimpleCorridor_2_lr=1e-06:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-30
+  done: false
+  episode_len_mean: 28.571428571428573
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 140
+  episodes_total: 140
+  experiment_id: c56cf4cd64bf4edc9775147c8a079f1a
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3758.768
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.20000000298023224
+        cur_lr: 9.999999974752427e-07
+        entropy: 0.6866928339004517
+        entropy_coeff: 0.0
+        kl: 0.0064927637577056885
+        policy_loss: -0.018517248332500458
+        total_loss: 0.45552098751068115
+        vf_explained_var: -0.009778609499335289
+        vf_loss: 0.4727397561073303
+    load_time_ms: 54.356
+    num_steps_sampled: 4000
+    num_steps_trained: 3968
+    sample_time_ms: 4639.454
+    update_time_ms: 600.986
+  iterations_since_restore: 1
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8072
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.04979098805544585
+    mean_inference_ms: 0.8789830373484203
+    mean_processing_ms: 0.20412771858533785
+  time_since_restore: 9.115022420883179
+  time_this_iter_s: 9.115022420883179
+  time_total_s: 9.115022420883179
+  timestamp: 1570105830
+  timesteps_since_restore: 4000
+  timesteps_this_iter: 4000
+  timesteps_total: 4000
+  training_iteration: 1
+  trial_id: 8b8631da
+  
+Result for PPO_SimpleCorridor_1_lr=0.0001:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-30
+  done: false
+  episode_len_mean: 28.02112676056338
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 142
+  episodes_total: 142
+  experiment_id: 8962720b73114057985723108b43ad50
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3793.701
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.20000000298023224
+        cur_lr: 9.999999747378752e-05
+        entropy: 0.6628222465515137
+        entropy_coeff: 0.0
+        kl: 0.03168671950697899
+        policy_loss: -0.036881860345602036
+        total_loss: 0.08074623346328735
+        vf_explained_var: 0.016355521976947784
+        vf_loss: 0.11129075288772583
+    load_time_ms: 58.019
+    num_steps_sampled: 4000
+    num_steps_trained: 3968
+    sample_time_ms: 4647.604
+    update_time_ms: 491.876
+  iterations_since_restore: 1
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8076
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.05109755285559103
+    mean_inference_ms: 0.8748184886761707
+    mean_processing_ms: 0.20578902115138936
+  time_since_restore: 9.044353485107422
+  time_this_iter_s: 9.044353485107422
+  time_total_s: 9.044353485107422
+  timestamp: 1570105830
+  timesteps_since_restore: 4000
+  timesteps_this_iter: 4000
+  timesteps_total: 4000
+  training_iteration: 1
+  trial_id: 8b85952c
+  
+Result for PPO_SimpleCorridor_0_lr=0.01:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-37
+  done: false
+  episode_len_mean: 16.06024096385542
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 249
+  episodes_total: 383
+  experiment_id: 69ddaf05b6314c7e99919c6c0bfdb793
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3682.987
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.30000001192092896
+        cur_lr: 0.009999999776482582
+        entropy: 0.5817227363586426
+        entropy_coeff: 0.0
+        kl: 0.04447028413414955
+        policy_loss: -0.04839055985212326
+        total_loss: -0.023733366280794144
+        vf_explained_var: -0.01766868121922016
+        vf_loss: 0.011316114105284214
+    load_time_ms: 26.45
+    num_steps_sampled: 8000
+    num_steps_trained: 7936
+    sample_time_ms: 4236.167
+    update_time_ms: 257.461
+  iterations_since_restore: 2
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8074
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.04798906204954056
+    mean_inference_ms: 0.782504377924134
+    mean_processing_ms: 0.20172613558955768
+  time_since_restore: 16.494179725646973
+  time_this_iter_s: 7.439568758010864
+  time_total_s: 16.494179725646973
+  timestamp: 1570105837
+  timesteps_since_restore: 8000
+  timesteps_this_iter: 4000
+  timesteps_total: 8000
+  training_iteration: 2
+  trial_id: 8b851dd6
+  
+== Status ==
+Using FIFO scheduling algorithm.
+Resources requested: 6/8 CPUs, 0/0 GPUs, 0.0/1.71 GiB heap, 0.0/0.59 GiB objects
+Memory usage on this node: 5.4/7.6 GiB
+Result logdir: /home/dm/ray_results/PPO
+Number of trials: 3 ({'RUNNING': 3})
+RUNNING trials:
+ - PPO_SimpleCorridor_0_lr=0.01:	RUNNING, [2 CPUs, 0 GPUs], [pid=8074], 16 s, 2 iter, 8000 ts, 1 rew
+ - PPO_SimpleCorridor_1_lr=0.0001:	RUNNING, [2 CPUs, 0 GPUs], [pid=8076], 9 s, 1 iter, 4000 ts, 1 rew
+ - PPO_SimpleCorridor_2_lr=1e-06:	RUNNING, [2 CPUs, 0 GPUs], [pid=8072], 9 s, 1 iter, 4000 ts, 1 rew
+
+Result for PPO_SimpleCorridor_2_lr=1e-06:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-37
+  done: false
+  episode_len_mean: 21.733695652173914
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 184
+  episodes_total: 324
+  experiment_id: c56cf4cd64bf4edc9775147c8a079f1a
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3687.351
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.20000000298023224
+        cur_lr: 9.999999974752427e-07
+        entropy: 0.6570243835449219
+        entropy_coeff: 0.0
+        kl: 0.012147128582000732
+        policy_loss: -0.024277782067656517
+        total_loss: 0.3493739068508148
+        vf_explained_var: -0.37682411074638367
+        vf_loss: 0.3712223172187805
+    load_time_ms: 28.351
+    num_steps_sampled: 8000
+    num_steps_trained: 7936
+    sample_time_ms: 4222.811
+    update_time_ms: 302.466
+  iterations_since_restore: 2
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8072
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.046136602433439096
+    mean_inference_ms: 0.7889100334492644
+    mean_processing_ms: 0.19731245671431877
+  time_since_restore: 16.55698013305664
+  time_this_iter_s: 7.441957712173462
+  time_total_s: 16.55698013305664
+  timestamp: 1570105837
+  timesteps_since_restore: 8000
+  timesteps_this_iter: 4000
+  timesteps_total: 8000
+  training_iteration: 2
+  trial_id: 8b8631da
+  
+Result for PPO_SimpleCorridor_1_lr=0.0001:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-37
+  done: false
+  episode_len_mean: 13.424749163879598
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 299
+  episodes_total: 441
+  experiment_id: 8962720b73114057985723108b43ad50
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3688.591
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.30000001192092896
+        cur_lr: 9.999999747378752e-05
+        entropy: 0.5749692320823669
+        entropy_coeff: 0.0
+        kl: 0.03224737197160721
+        policy_loss: -0.060776446014642715
+        total_loss: -0.045042458921670914
+        vf_explained_var: 0.14574961364269257
+        vf_loss: 0.0060597797855734825
+    load_time_ms: 30.198
+    num_steps_sampled: 8000
+    num_steps_trained: 7936
+    sample_time_ms: 4284.141
+    update_time_ms: 247.77
+  iterations_since_restore: 2
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8076
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.04743972490346666
+    mean_inference_ms: 0.791836523917329
+    mean_processing_ms: 0.20638776859511826
+  time_since_restore: 16.56814169883728
+  time_this_iter_s: 7.523788213729858
+  time_total_s: 16.56814169883728
+  timestamp: 1570105837
+  timesteps_since_restore: 8000
+  timesteps_this_iter: 4000
+  timesteps_total: 8000
+  training_iteration: 2
+  trial_id: 8b85952c
+  
+Result for PPO_SimpleCorridor_2_lr=1e-06:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-44
+  done: true
+  episode_len_mean: 13.282392026578073
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 301
+  episodes_total: 625
+  experiment_id: c56cf4cd64bf4edc9775147c8a079f1a
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3626.474
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.20000000298023224
+        cur_lr: 9.999999974752427e-07
+        entropy: 0.6110923290252686
+        entropy_coeff: 0.0
+        kl: 0.009595444425940514
+        policy_loss: -0.01765650324523449
+        total_loss: 0.2930128574371338
+        vf_explained_var: -0.9965885281562805
+        vf_loss: 0.3087502717971802
+    load_time_ms: 19.344
+    num_steps_sampled: 12000
+    num_steps_trained: 11904
+    sample_time_ms: 4097.236
+    update_time_ms: 203.145
+  iterations_since_restore: 3
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8072
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.04472687645521117
+    mean_inference_ms: 0.7583316629424255
+    mean_processing_ms: 0.19927879500693055
+  time_since_restore: 23.93187379837036
+  time_this_iter_s: 7.374893665313721
+  time_total_s: 23.93187379837036
+  timestamp: 1570105844
+  timesteps_since_restore: 12000
+  timesteps_this_iter: 4000
+  timesteps_total: 12000
+  training_iteration: 3
+  trial_id: 8b8631da
+  
+== Status ==
+Using FIFO scheduling algorithm.
+Resources requested: 4/8 CPUs, 0/0 GPUs, 0.0/1.71 GiB heap, 0.0/0.59 GiB objects
+Memory usage on this node: 5.4/7.6 GiB
+Result logdir: /home/dm/ray_results/PPO
+Number of trials: 3 ({'RUNNING': 2, 'TERMINATED': 1})
+RUNNING trials:
+ - PPO_SimpleCorridor_0_lr=0.01:	RUNNING, [2 CPUs, 0 GPUs], [pid=8074], 16 s, 2 iter, 8000 ts, 1 rew
+ - PPO_SimpleCorridor_1_lr=0.0001:	RUNNING, [2 CPUs, 0 GPUs], [pid=8076], 16 s, 2 iter, 8000 ts, 1 rew
+TERMINATED trials:
+ - PPO_SimpleCorridor_2_lr=1e-06:	TERMINATED, [2 CPUs, 0 GPUs], [pid=8072], 23 s, 3 iter, 12000 ts, 1 rew
+
+Result for PPO_SimpleCorridor_0_lr=0.01:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-45
+  done: true
+  episode_len_mean: 7.446927374301676
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 537
+  episodes_total: 920
+  experiment_id: 69ddaf05b6314c7e99919c6c0bfdb793
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3690.48
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.44999998807907104
+        cur_lr: 0.009999999776482582
+        entropy: 0.37321367859840393
+        entropy_coeff: 0.0
+        kl: 0.028276026248931885
+        policy_loss: -0.04500815272331238
+        total_loss: -0.026903895661234856
+        vf_explained_var: -0.503067672252655
+        vf_loss: 0.005380043759942055
+    load_time_ms: 18.151
+    num_steps_sampled: 12000
+    num_steps_trained: 11904
+    sample_time_ms: 4205.673
+    update_time_ms: 173.194
+  iterations_since_restore: 3
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8074
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.04730895304419619
+    mean_inference_ms: 0.7617736834206688
+    mean_processing_ms: 0.21723365497612954
+  time_since_restore: 24.37714982032776
+  time_this_iter_s: 7.882970094680786
+  time_total_s: 24.37714982032776
+  timestamp: 1570105845
+  timesteps_since_restore: 12000
+  timesteps_this_iter: 4000
+  timesteps_total: 12000
+  training_iteration: 3
+  trial_id: 8b851dd6
+  
+Result for PPO_SimpleCorridor_1_lr=0.0001:
+  custom_metrics: {}
+  date: 2019-10-03_15-30-45
+  done: true
+  episode_len_mean: 8.710869565217392
+  episode_reward_max: 1.0
+  episode_reward_mean: 1.0
+  episode_reward_min: 1.0
+  episodes_this_iter: 460
+  episodes_total: 901
+  experiment_id: 8962720b73114057985723108b43ad50
+  hostname: dm-PC
+  info:
+    grad_time_ms: 3676.662
+    learner:
+      default_policy:
+        cur_kl_coeff: 0.44999998807907104
+        cur_lr: 9.999999747378752e-05
+        entropy: 0.4709323048591614
+        entropy_coeff: 0.0
+        kl: 0.019937273114919662
+        policy_loss: -0.06766250729560852
+        total_loss: -0.05768149718642235
+        vf_explained_var: 0.3510352671146393
+        vf_loss: 0.0010092374868690968
+    load_time_ms: 20.781
+    num_steps_sampled: 12000
+    num_steps_trained: 11904
+    sample_time_ms: 4205.94
+    update_time_ms: 166.251
+  iterations_since_restore: 3
+  node_ip: 192.168.43.245
+  num_healthy_workers: 1
+  off_policy_estimator: {}
+  pid: 8076
+  policy_reward_max: {}
+  policy_reward_mean: {}
+  policy_reward_min: {}
+  sampler_perf:
+    mean_env_wait_ms: 0.04639058160380556
+    mean_inference_ms: 0.7657198973093795
+    mean_processing_ms: 0.2155479376797437
+  time_since_restore: 24.298672437667847
+  time_this_iter_s: 7.730530738830566
+  time_total_s: 24.298672437667847
+  timestamp: 1570105845
+  timesteps_since_restore: 12000
+  timesteps_this_iter: 4000
+  timesteps_total: 12000
+  training_iteration: 3
+  trial_id: 8b85952c
+  
+== Status ==
+Using FIFO scheduling algorithm.
+Resources requested: 0/8 CPUs, 0/0 GPUs, 0.0/1.71 GiB heap, 0.0/0.59 GiB objects
+Memory usage on this node: 5.4/7.6 GiB
+Result logdir: /home/dm/ray_results/PPO
+Number of trials: 3 ({'TERMINATED': 3})
+TERMINATED trials:
+ - PPO_SimpleCorridor_0_lr=0.01:	TERMINATED, [2 CPUs, 0 GPUs], [pid=8074], 24 s, 3 iter, 12000 ts, 1 rew
+ - PPO_SimpleCorridor_1_lr=0.0001:	TERMINATED, [2 CPUs, 0 GPUs], [pid=8076], 24 s, 3 iter, 12000 ts, 1 rew
+ - PPO_SimpleCorridor_2_lr=1e-06:	TERMINATED, [2 CPUs, 0 GPUs], [pid=8072], 23 s, 3 iter, 12000 ts, 1 rew
+
